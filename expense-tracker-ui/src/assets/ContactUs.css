@@ -1,0 +1,55 @@
+.contact-background {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(25, 32, 85, 0.85), rgba(123, 31, 162, 0.85)), 
+                      url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3rem 0;
+}
+
+.contact-title {
+    color: #fff;
+}
+
+.contact-card {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    color: #fff;
+}
+
+.contact-card-title {
+    color: #fff;
+}
+
+.contact-info-item {
+    color: #fff;
+}
+
+.contact-icon {
+    color: #fff;
+}
+
+.contact-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.contact-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-submit-btn {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.contact-submit-btn:hover {
+    opacity: 0.9;
+}

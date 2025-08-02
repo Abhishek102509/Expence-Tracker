@@ -1,0 +1,50 @@
+
+
+.expense-form-container {
+    background-image: url('https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.expense-form-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.expense-form-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.expense-form-label {
+    font-weight: 500;
+}
+
+.expense-form-input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.expense-form-button {
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.expense-primary-button {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 8px 30px;
+}
+
+.expense-form-button-group {
+    display: flex;
+    justify-content: space-between;
+}
